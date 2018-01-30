@@ -2,7 +2,10 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 
-const App = function() {
+import config from '../config'
+const API_KEY = config.youtubeAPI
+
+const App = () => {
   return <div>Hi</div>;
 }
 
